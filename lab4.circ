@@ -2597,4 +2597,13 @@ end TCL_Generic;&#13;
     <wire from="(550,180)" to="(550,740)"/>
     <wire from="(550,180)" to="(570,180)"/>
   </circuit>
+  <circuit name="ImmGen">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="ImmGen"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="circuitvhdlpath" val=""/>
+    <a name="clabel" val=""/>
+    <a name="clabelfont" val="SansSerif bold 16"/>
+    <a name="clabelup" val="east"/>
+  </circuit>
 </project>
