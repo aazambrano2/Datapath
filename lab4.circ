@@ -128,7 +128,7 @@ end TCL_Generic;&#13;
       <a name="SocBusSelection" val=""/>
     </tool>
   </lib>
-  <main name="main"/>
+  <main name="OneBitFullAdder"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
     <a name="simlimit" val="1000"/>
@@ -173,15 +173,6 @@ end TCL_Generic;&#13;
       <a name="appearance" val="logisim_evolution"/>
     </tool>
   </toolbar>
-  <circuit name="main">
-    <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="main"/>
-    <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="circuitvhdlpath" val=""/>
-    <a name="clabel" val=""/>
-    <a name="clabelfont" val="SansSerif bold 16"/>
-    <a name="clabelup" val="east"/>
-  </circuit>
   <circuit name="OneBitFullAdder">
     <a name="appearance" val="logisim_evolution"/>
     <a name="circuit" val="OneBitFullAdder"/>
@@ -2528,26 +2519,6 @@ end TCL_Generic;&#13;
     <wire from="(970,950)" to="(1040,950)"/>
     <wire from="(970,970)" to="(1040,970)"/>
     <wire from="(970,990)" to="(1040,990)"/>
-  </circuit>
-  <circuit name="BarrelShifter">
-    <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="BarrelShifter"/>
-    <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="circuitvhdlpath" val=""/>
-    <a name="clabel" val=""/>
-    <a name="clabelfont" val="SansSerif bold 16"/>
-    <a name="clabelup" val="east"/>
-    <comp lib="3" loc="(230,550)" name="Shifter">
-      <a name="shift" val="lr"/>
-      <a name="width" val="32"/>
-    </comp>
-    <comp lib="3" loc="(260,440)" name="Shifter">
-      <a name="shift" val="lr"/>
-      <a name="width" val="32"/>
-    </comp>
-    <comp lib="3" loc="(290,340)" name="Shifter">
-      <a name="width" val="32"/>
-    </comp>
   </circuit>
   <circuit name="ALUControlExtra">
     <a name="appearance" val="logisim_evolution"/>
